@@ -1,5 +1,5 @@
-import { Route, Recommendation, RecommendationType, RiskLevel } from '../types';
-import { calculateRouteDistance, calculateDistance } from './routeData';
+import { Route, Recommendation, RecommendationType } from '../types';
+import { calculateRouteDistance } from './routeData';
 import { optimizeRouteOrder, addWeatherDetour, createEfficiencyShortcut } from './routeOptimizer';
 
 const RECOMMENDATION_TEMPLATES: Record<RecommendationType, {

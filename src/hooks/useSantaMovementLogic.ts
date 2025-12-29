@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { Route, SantaPosition } from '../types';
-import { interpolatePoint, calculateHeading, calculateDistance } from '../utils/routeData';
+import { interpolatePoint, calculateHeading } from '../utils/routeData';
 
 const DEBUG = false; // Set to true for debug logs
 

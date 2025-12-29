@@ -1,5 +1,5 @@
 import { GeographicRoute, NavPoint } from '../types';
-import { calculateGeographicDistance, haversineDistance } from './geographicRouteData';
+import { calculateGeographicDistance } from './geographicRouteData';
 import { RecommendationType } from '../types';
 
 /**

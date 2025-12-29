@@ -18,7 +18,6 @@ export function useSantaPosition(route: Route) {
   });
 
   const routeRef = useRef(route);
-  const positionRef = useRef(position);
 
   // Update route ref when route changes
   useEffect(() => {

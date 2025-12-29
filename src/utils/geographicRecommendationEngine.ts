@@ -4,7 +4,6 @@ import {
   optimizeGeographicRouteOrder,
   addGeographicWeatherDetour,
   createGeographicEfficiencyShortcut,
-  applyGeographicRouteModification,
 } from './geographicRouteOptimizer';
 import { GeographicRecommendation } from '../contexts/GeographicRouteContext';
 

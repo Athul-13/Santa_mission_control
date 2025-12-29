@@ -1,5 +1,5 @@
 import { Route, RoutePoint, RecommendationType } from '../types';
-import { calculateRouteDistance, calculateDistance } from './routeData';
+import { calculateDistance } from './routeData';
 
 /**
  * Optimize route by reordering waypoints for efficiency

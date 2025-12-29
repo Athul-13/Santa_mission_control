@@ -163,6 +163,27 @@ npm run build
 npm run preview
 ```
 
+### 🌐 Deploy to GitHub Pages
+
+1. **Update the base path** in `vite.config.ts`:
+   - Replace `/santa/` with your repository name (e.g., if your repo is `my-santa-app`, use `/my-santa-app/`)
+   - If deploying to `username.github.io`, use `/`
+
+2. **Deploy to GitHub Pages**:
+   ```bash
+   npm run deploy
+   ```
+
+3. **Enable GitHub Pages** in your repository settings:
+   - Go to Settings → Pages
+   - Source: Select `gh-pages` branch
+   - Save
+
+4. **Your site will be live at**:
+   - `https://yourusername.github.io/santa/` (or your repo name)
+
+> 💡 **Note**: The first deployment may take a few minutes. Subsequent deployments are faster!
+
 ---
 
 ## 🎮 How to Play 🎮

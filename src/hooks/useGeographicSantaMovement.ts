@@ -79,7 +79,9 @@ export function useGeographicSantaMovement(route: GeographicRoute) {
 
       // Find closest point on the segment (simplified: check start, end, and midpoint)
       let minDist = Math.min(distToStart, distToEnd);
-      let closestPoint = distToStart < distToEnd ? start : end;
+      let closestPoint: { lat: number; lng: number } = distToStart < distToEnd 
+        ? { lat: start.lat, lng: start.lng } 
+        : { lat: end.lat, lng: end.lng };
 
       // Check midpoint
       const midLat = (start.lat + end.lat) / 2;
