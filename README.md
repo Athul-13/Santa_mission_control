@@ -24,6 +24,18 @@
 
 ---
 
+## 📸 Screenshot 📸
+
+<div align="center">
+
+![Santa Mission Control Dashboard](./screenshots/santa.png)
+
+*🎅 Complete view of the Santa Mission Control Dashboard - Real-time tracking, route optimization, and mission monitoring*
+
+</div>
+
+---
+
 ## 🌟 Welcome to the North Pole Operations Center! 🌟
 
 ```
